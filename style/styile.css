@@ -4,3 +4,7 @@ th{
     color: blue;
     border-radius: 50%;
 }
+
+nav ul li{
+    display: inline-block;
+}
