@@ -5,23 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
+    <link rel="stylesheet" href="../style/styile.css">
     <style>
         body {
             background-color: #eedeee;
             padding: 10px;
-            margin: 20px;
+            margin: 10px;
+       
             box-sizing: border-box;
         }
+
         label {
             color: black;
         }
+
         input {
-            background:chartreuse;
+            background: chartreuse;
         }
-        fieldset{
+
+        fieldset {
             background-color: #87c2e9;
         }
-        legend{
+
+        legend {
             color: rgb(0, 0, 0);
             border: 2px solid blue;
             background: #f18b6b;
@@ -31,7 +37,14 @@
 </head>
 
 <body>
-
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../Projects/projects.html">Projects</a></li>
+            <li><a href="../Contact/contact.html">Contact</a></li>
+            <li><a href="../Skills/skills.html">Skills</a></li>
+        </ul>
+    </nav>
     <form>
         <fieldset>
             <legend>Registration Form For BS:</legend>
@@ -45,7 +58,7 @@
             <input type="email" name="email" id="email" maxlength="20" size="20" required>
             <br><br>
             <p>Select your Gender:</p>
-            <input type="radio" name="Female"  id="Female">Female
+            <input type="radio" name="Female" id="Female">Female
             <input type="radio" name="Male" id="Male" id="Male">Male
             <br><br>
             <input type="date" name="dateOfBirth" id="">
