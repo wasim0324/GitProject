@@ -10,3 +10,22 @@ nav ul li{
     margin: 10px 5px 0px 0px;
 }
 
+footer{
+    text-align: center;
+    color:blue;
+    padding-top: 10%;
+
+}
+.video{
+    padding: 50px;
+    padding-bottom: 0px;
+
+}
+
+.video-h1{
+    text-align: center;
+    border: 5px double rgb(108, 159, 211);
+    padding: 5px;
+    text-decoration:underline;
+
+}
