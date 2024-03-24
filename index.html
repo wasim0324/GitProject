@@ -1,59 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home | MUHAMMAD WASIM</title>
-    <link rel="website icon" href="../images/mypic.jpg" type="JPG">
-    <link rel="stylesheet" href="../style/styile.css">
-    <script src="https://kit.fontawesome.com/19769bb171.js" crossorigin="anonymous"></script>
-    <style>
-        nav ul li {
-            display: inline-block;
-            margin: 10px 5px 0px 0px;
-        }
-    </style>
-</head>
-
-<body>
-    <!-- Header  -->
+    <!-- Website img -->
+    <link rel="website icon" href="./images/mypic.jpg" type="image/x-icon" />
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="./style/index.css" />
+    <link rel="stylesheet" href="./style/headerFooter.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
     <header>
-        <h1>Welcome to My Portfolio &copy;</h1>
-        <!-- Navigation -->
-        <nav>
-            <ul>
-                <li><a href="../GitProject/Projects/projects.html">Projects</a></li>
-                <li><a href="../GitProject/Skills/skills.html">Skills</a></li>
-                <li><a href="../GitProject/Contact/contact.html">Contact</a></li>
-                <li><a href="../GitProject/Registration/form.html">Registration form</a></li>
-            </ul>
-        </nav>
+      <div class="logo">
+        <img src="./images/3.gif" alt="Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="./Projects/projects.html">Projects</a></li>
+          <li><a href="./Skills/skills.html">Skills</a></li>
+          <li><a href="./Contact/contact.html">Contact</a></li>
+          <li><a href="./Registration/form.html">Registration form</a></li>
+        </ul>
+      </nav>
     </header>
-    <!-- Section For the Detail about me..... -->
 
-    <div class="main">
-        <div>
-            <section>
-                <img src="../GitProject/images/mypicture.JPG" type="jpg" alt="This is my picture" width="250px"
-                    height="300px">
-                <h2>About Me</h2>
-                <p>My name is <strong>MUHAMMAD WASIM.</strong></p>
-                <p>I m doing a software engineering. Currently i m in 6th semester.</p>
-            </section>
+    <div class="main-content">
+      <!-- Main Content -->
+      <div class="content">
+        <h1>Welcome to My Website</h1>
+        <p>
+          This is not just a website; it's a journey into the digital realm
+          where creativity knows no bounds.
+        </p>
+        <p>
+          Explore, discover, and immerse yourself in a world of endless
+          possibilities.
+        </p>
+        <p>
+          Let your curiosity lead the way as you navigate through the wonders of
+          this digital sanctuary.
+        </p>
+      </div>
 
-            <section class="video">
-                <h1 class="video-h1">City University Of Science & Information Technology &#40;CUSIT&#41;  </h1>
-                <video src="../GitProject/video/city.mp4" width="500px" controls autoplay loop muted></video>
-            </section>
-
+      <!-- Section For the Detail about me and Video -->
+      <div class="main">
+        <div class="details">
+          <img src="./images/myNewPic.png" alt="This is my picture" />
+          <h2>About Me</h2>
+          <p>My name is <strong>MUHAMMAD WASIM.</strong></p>
+          <p>
+            I'm doing a software engineering. Currently, I'm in the 6th
+            semester.
+          </p>
         </div>
+        <div class="video-container">
+          <video autoplay muted loop id="bg-video">
+            <source src="./video/city.mp4" type="video/mp4" />
+            Your browser does not support HTML5 video.
+          </video>
+        </div>
+      </div>
     </div>
-
-    <!-- Footer  -->
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 MUHAMMAD WASIM.</p>
+      <p>&copy; 2024 <strong>MUHAMMAD WASIM</strong>.</p>
     </footer>
-</body>
-
+  </body>
 </html>
