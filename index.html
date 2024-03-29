@@ -16,6 +16,8 @@
       href="https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap"
       rel="stylesheet"
     />
+
+    
   </head>
   <body>
     <!-- Header -->
@@ -56,14 +58,35 @@
         <div class="details">
           <img src="./images/myNewPic.png" alt="This is my picture" />
           <h2>About Me</h2>
-          <p>My name is <strong>MUHAMMAD WASIM.</strong></p>
+          <p>My name is 
+         
+<div>
+  <h2 style="margin-left: 40px; font-size: 30px;"><strong>MUHAMMAD WASIM.</strong>  <img id="speaker" src="./speeck.svg" alt="Speaker Icon" style="cursor: pointer; width: 30px; height: 3%; margin: auto;"></h2>
+  <!-- <h2 style="color: rgba(211, 98, 6, 0.822); margin-left: 70px; font-size: 30px; ">
+     
+  </h2> -->
+</div>
+
+<audio id="audio" src="./muhammadwasim.mp3"></audio>
+
+<script>
+  var audio = document.getElementById("audio");
+  var image = document.getElementById("speaker");
+
+  image.addEventListener("click", function() {
+      audio.play();
+  });
+</script>
+          
+          
+          </p>
           <p>
             I'm doing a software engineering. Currently, I'm in the 6th
             semester.
           </p>
         </div>
         <div class="video-container">
-          <video autoplay muted loop id="bg-video">
+          <video autoplay muted loop controls id="bg-video">
             <source src="./video/city.mp4" type="video/mp4" />
             Your browser does not support HTML5 video.
           </video>
@@ -74,5 +97,8 @@
     <footer>
       <p>&copy; 2024 <strong>MUHAMMAD WASIM</strong>.</p>
     </footer>
+
+
+
   </body>
 </html>
